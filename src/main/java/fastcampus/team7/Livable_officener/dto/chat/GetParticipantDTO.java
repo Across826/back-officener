@@ -17,8 +17,8 @@ public class GetParticipantDTO {
     private final String name;
     private final String companyName;
     private final String profileImage;
-    @JsonProperty("isHost")
     private final boolean amI;
+    @JsonProperty("isHost")
     private final boolean isHost;
     private final boolean hasRemitted;
     private final boolean hasReceived;
